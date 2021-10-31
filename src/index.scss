@@ -1,0 +1,17 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: themify, sans-serif;
+}
+
+@font-face {
+  font-family: themify;
+  src: url("./Fonts/themify.ttf");
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+

@@ -1,0 +1,121 @@
+
+
+.servisPopProHead{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 100px;
+
+    h1{
+        padding-bottom: 25px;
+        font-size: 55px;
+    }
+
+}
+
+.service{
+    width: 100%;
+    padding-bottom: 5%;
+}
+
+.services{
+    width: 100%;
+    padding-bottom: 5%;
+    padding-top: 15vh;
+}
+
+
+@media (max-width: 1180px){
+    .cardContainer{
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+
+        .cardStuff{
+            display: block;
+            width: 80%;
+        }
+    }
+}
+
+
+@media (max-width: 780px){
+    .cardContainer{
+        flex-direction: column;
+
+        .cardStuff{
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+        .card{
+
+            img{
+                width: 180px;
+            }
+        }
+    }
+}
+
+
+@media (min-width: 780px){
+    .cardStuff{
+        display: inline-block;
+        flex-grow: 1;
+        width: calc(100% * (1/4) - 10px - 1px);
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+.cardContainer{
+    display: flex;
+    flex-wrap: wrap;
+
+
+    .card{
+
+        margin: 10px;
+        padding: 20px;
+        border: black 1px solid;
+        text-align: center;
+
+        ul{
+            li{
+                list-style-type: none;
+            }
+        }
+
+        h3{
+            padding-top: 20px;
+            padding-bottom: 10px;
+            font-size: 25px;
+        }
+
+        p{
+            padding-top: 10px;
+            padding-bottom: 20px;
+        }
+
+        img{
+            max-width: 100%;
+        }
+
+        .cardLink{
+            padding: 20px;
+
+            a{
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-left: 30px;
+                padding-right: 30px;
+                background-color: rgb(58, 58, 58);
+                border-radius: 50px;
+                text-decoration: none;
+                color: white;
+                font-family: sans-serif;
+                
+            }
+        }
+    }
+}

@@ -1,0 +1,40 @@
+
+
+.review{
+    background-color: rgb(255, 232, 248);
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-bottom: 50px;
+}
+
+.sliderContentReview{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.reviewCon{
+    text-align: center;
+
+    .profilePicture{
+        border-radius: 100px;
+    }
+
+    .reviewText{
+        line-height: 30px;
+        letter-spacing: 0px;
+    }
+
+    img{
+        padding: 30px;
+    }
+    
+    .profileText{
+        font-size: 25px;
+
+        span{
+            font-size: 17px;
+        }
+    }
+}

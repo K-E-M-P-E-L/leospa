@@ -1,0 +1,160 @@
+
+.hero{
+    width: 100%;
+    position: relative;
+    padding-bottom: 50px;
+}
+
+
+.heroContainer{
+    display: flex;
+}
+
+
+@media (max-width: 1280px){
+    .heroLeafImgCon{
+        margin-top: 20px;
+    }
+    
+}
+
+@media (max-width: 720px){
+    .heroLeafImgCon{
+        margin-top: 20%;
+    }
+    .heroTextCon{
+        padding-top: 15%;
+        padding-bottom: 10%;
+        margin-left: 10px;
+        margin-top: 20px;
+        position: absolute;
+    }
+    .heroH1{
+        padding-top: 15px;
+        padding-bottom: 15px;
+        font-size: 50px;
+    }
+    .heroButtoCon{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media  (max-width: 920px){
+    .heroSpaImgCon{
+        display: none;
+    }
+}
+
+
+.SpaImg{
+    width: 40vw;
+}
+
+@media (min-width: 720px){
+    .heroTextCon{
+        padding-top: 15%;
+        padding-bottom: 10%;
+        margin-left: 20%;
+        position: absolute;
+    }
+    .heroH1{
+        padding-top: 15px;
+        padding-bottom: 15px;
+        font-size: 60px;
+    }  
+}
+
+.heroLeafImgCon{
+    padding-top: 10%;
+    padding-bottom: 1;
+    bottom: 0;
+    position: relative;
+    img{
+        width: 13vw;
+    }
+}
+
+.heroH2{
+    color: #ff817e;
+    font-size: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-weight: 300;
+    text-transform: uppercase;
+
+}
+
+
+.heroP{
+    font-family: sans-serif;
+    padding-top: 15px;
+    padding-bottom: 50px;
+    padding-right: 40px;
+
+}
+
+.heroSpaImgCon{
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+}  
+
+
+.heroButtoCon{
+    display: flex;
+    flex-direction: row;
+}
+
+.heroThing{
+    display: block;
+    padding-right: 22px;
+    padding-left: 22px;
+    padding-top: 20px;
+    padding-bottom: 18px;
+    background-color: #ffe4e3;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: 600;
+    border-radius: 50px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: #ff817e;
+}
+
+
+.heroVideo{
+    display: flex;
+    
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+}
+
+.heroVideo:hover{
+    color: #ff817e;
+}
+
+.heroVideoText{
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+
+
+.heroButton{
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    background-color: #ff817e;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: 600;
+    border-radius: 2px;
+}
+
+.heroButton:hover{
+    color: rgb(70, 70, 70);
+}

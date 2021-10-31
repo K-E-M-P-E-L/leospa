@@ -1,0 +1,143 @@
+
+
+
+header{
+    width: 100%;
+    z-index: 1;
+    position: absolute;
+    padding-right: 15%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.headerContainer{
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+@media (min-width: 768px){
+    .headerContainer {
+        max-width: 720px;
+    }
+    .burgerMenuButton{
+        display: none;
+    } 
+}
+
+@media (max-width: 1280px){
+    .logoContainer{
+        img{
+            padding-left: 15%;
+        }
+    }
+}
+
+@media (max-width: 580px){
+    .logoContainer{
+        img{
+            padding-left: 0;
+        }
+    }
+}
+
+@media (max-width: 768px){
+    .linkContainer{
+        display: none;
+    }   
+    .burgerMenuButton{
+        display: block;
+    } 
+}
+
+
+
+.navBar {
+    button{
+        position: absolute;
+        right: 40px;
+        top: 40px;
+        z-index: 10;
+        cursor: pointer;
+        border: none;
+        background-color: transparent; 
+    }
+}
+
+.burgerMenu{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menuButtom{
+    padding-bottom: 35px;
+}
+
+
+  
+.menuNav {
+    overflow-y: scroll;
+    list-style: none;
+    position: relative;
+    background: #fcf5ee;
+    width: 0;
+    overflow: hidden;
+    max-width: 520px;
+    z-index: 9;
+    left: 7vw;
+
+
+    li{
+        width: 100%;
+    }
+
+    a {
+        display: block;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: bold;
+        text-align: center;
+    }
+}
+  
+.menuNav.showMenu {
+    width: 100%;
+}
+  
+  
+.logoContainer{
+    padding-left: 10px;
+}
+
+.navBar{
+
+
+
+    ul{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    li{
+        display: inline-block;
+        padding-right: 15px;
+        padding-left: 15px;
+        text-transform: uppercase;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 55px;
+        
+        a{
+            text-decoration: none;
+            color: black;
+            font-weight: 400;
+        }
+
+        a:hover{
+            color: #ff817e;
+        }
+    }
+}
